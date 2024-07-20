@@ -21,14 +21,28 @@ Cybersickness is a growing concern in the field of virtual reality (VR). It is c
 To compile the LaTeX source files into a PDF, it is recommended to use Overleaf with the `pdflatex` compiler. Follow these steps:
 
 1. Clone the repository:
+    If you haven't already, clone the repository to your local machine.
     ```sh
     git clone git@github.com:shwg8986/Cybersickness-Prediction.git
     cd Cybersickness-Prediction
     ```
 
-2. Open the project in Overleaf (or any LaTeX editor of your choice).
+2. Compress the Repository Contents:
+    Use a terminal command or a file compression tool to zip the contents.
 
-3. Compile the `final_manuscript.tex` file using `pdflatex`.
+    In a terminal, you can use the zip command as follows:
+    ```sh
+    zip -r Cybersickness-Prediction.zip .
+    ```
+    This command will create a file named Cybersickness-Prediction.zip containing all the files and folders in the current directory.
 
-The output PDF will be generated in the root directory of the repository.
+3. Upload to Overleaf (or any LaTeX editor of your choice):
+    - Go to Overleaf.
+    - Create a new project or open an existing one.
+    - Click on the "Upload" button in the top menu.
+    - Select "Upload a .zip file".
+    - Choose the Cybersickness-Prediction.zip file you just created and upload it.
+
+4. Compile the `final_manuscript.tex` file using `pdflatex`.
+    The output PDF will be generated in the root directory of the repository.
 
